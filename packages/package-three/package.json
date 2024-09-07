@@ -1,5 +1,5 @@
 {
-  "name": "consumer",
+  "name": "package-three",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -15,7 +15,7 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@typebot.io/schemas": "workspace:*"
+    "package-two": "workspace:*"
   },
   "devDependencies": {
     "typescript": "5.5.4"
