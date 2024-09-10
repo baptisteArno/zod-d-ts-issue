@@ -1,6 +1,7 @@
 import { schema } from "package-two";
+import type { schemaType } from "package-two";
 
-const yos = schema.parse([
+const yos: schemaType[] = schema.parse([
   { id: "1", name: "yo" },
   { id: "2", name: "yo" },
 ]);

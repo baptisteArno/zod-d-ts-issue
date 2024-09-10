@@ -1,3 +1,4 @@
-import { schema as packageOneSchema } from "package-one";
+import { schema as packageOneSchema, type SchemaType as packageOneSchemaType } from "package-one";
 
 export const schema = packageOneSchema;
+export type schemaType = packageOneSchemaType;
