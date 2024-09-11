@@ -5,4 +5,4 @@ const yos = schema.parse([
   { id: "2", name: "yo" },
 ]);
 
-yos.map((yo) => yo.id);
+yos.forEach((yo) => console.log(yo.id));

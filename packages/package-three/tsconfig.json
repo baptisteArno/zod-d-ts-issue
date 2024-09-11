@@ -2,6 +2,8 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "outDir": "dist",
+    "rootDir": "src",
+    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
     "declaration": true,
     "declarationMap": true,
     "noEmitOnError": true,
@@ -16,8 +18,14 @@
     "isolatedModules": true,
     "strict": true,
     "verbatimModuleSyntax": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "composite": true
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "references": [
+    {
+      "path": "../package-two"
+    }
+  ]
 }

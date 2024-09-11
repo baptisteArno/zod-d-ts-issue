@@ -15,18 +15,18 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       typescript:
-        specifier: ^5.4.5
-        version: 5.5.4
+        specifier: 5.6.2
+        version: 5.6.2
 
   packages/package-one:
     dependencies:
       zod:
-        specifier: 3.22.4
-        version: 3.22.4
+        specifier: 3.23.8
+        version: 3.23.8
     devDependencies:
       typescript:
-        specifier: 5.5.4
-        version: 5.5.4
+        specifier: 5.6.2
+        version: 5.6.2
 
   packages/package-three:
     dependencies:
@@ -35,8 +35,8 @@ importers:
         version: link:../package-two
     devDependencies:
       typescript:
-        specifier: 5.5.4
-        version: 5.5.4
+        specifier: 5.6.2
+        version: 5.6.2
 
   packages/package-two:
     dependencies:
@@ -45,8 +45,8 @@ importers:
         version: link:../package-one
     devDependencies:
       typescript:
-        specifier: 5.5.4
-        version: 5.5.4
+        specifier: 5.6.2
+        version: 5.6.2
 
 packages:
 
@@ -116,12 +116,12 @@ packages:
       turbo-windows-arm64: 2.1.1
     dev: true
 
-  /typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+  /typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
-  /zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  /zod@3.23.8:
+    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
     dev: false
